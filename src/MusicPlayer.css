@@ -1,0 +1,26 @@
+/* Add these styles to MusicPlayer.css */
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
